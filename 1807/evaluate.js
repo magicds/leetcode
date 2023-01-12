@@ -11,7 +11,7 @@ var evaluate = function (s, knowledge) {
   }
 
   i = 0; len = s.length;
-
+  // 这里用一个新的字符串数组来存储结果 可以大幅降低原字符串原地修改的复杂度
   var arr = [];
   var key = '';
   var isGroup = false;
