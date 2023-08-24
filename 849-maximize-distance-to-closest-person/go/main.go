@@ -1,3 +1,5 @@
+
+// #region start
 func maxDistToClosest(seats []int) int {
 	n, i, j, dist := len(seats), 0, 0, 0;
 	for i < n {
@@ -35,3 +37,4 @@ func max(a int, b int) int {
 	}
 	return b
 }
+//#endregion

@@ -1,6 +1,7 @@
 {
     "include": ["**/ts/*"],
     "compilerOptions": {
-        "allowJs": false
+        "allowJs": false,
+        "target": "es2015"
     }
 }
